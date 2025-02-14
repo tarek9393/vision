@@ -1,0 +1,35 @@
+{
+    "labels": {
+        "root_dir": "Labels",
+        "kartong_dir": "Labels/Kartongetiketter",
+        "pall_dir": "Labels/Palletiketter"
+    },
+    "camera": {
+        "device_id": 0,
+        "width": 1280,
+        "height": 720,
+        "exposure": -5,
+        "focus": 35
+    },
+    "ocr": {
+        "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+        "language": "swe",
+        "confidence_threshold": 80
+    },
+    "ui": {
+        "theme": "dark",
+        "window_size": {
+            "width": 1200,
+            "height": 800
+        },
+        "preview_size": {
+            "width": 400,
+            "height": 400
+        }
+    },
+    "validation": {
+        "match_threshold": 80,
+        "save_failed_validations": true,
+        "failed_validations_dir": "data/failed_validations"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Produkt1": {
+        "kartong_label": "kartong/produkt1.lbl",
+        "pall_label": "pall/produkt1.lbl"
+    },
+    "Produkt2": {
+        "kartong_label": "kartong/produkt2.lbl",
+        "pall_label": "pall/produkt2.lbl"
+    }
+}

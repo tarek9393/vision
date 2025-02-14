@@ -1,0 +1,45 @@
+{
+    "ensemble": {
+        "ensemble_method": "weighted_average",
+        "model_weights": [0.4, 0.4, 0.2],
+        "models": [
+            {
+                "type": "resnet",
+                "model_variant": "resnet50",
+                "pretrained": true,
+                "num_classes": 2,
+                "learning_rate": 0.001,
+                "weight_decay": 1e-4,
+                "num_epochs": 10
+            },
+            {
+                "type": "vgg",
+                "model_variant": "vgg16",
+                "pretrained": true,
+                "num_classes": 2,
+                "learning_rate": 0.001,
+                "momentum": 0.9,
+                "num_epochs": 10
+            },
+            {
+                "type": "yolo",
+                "model_path": "yolov8n.pt",
+                "conf_threshold": 0.25,
+                "iou_threshold": 0.45
+            }
+        ]
+    },
+    "training": {
+        "batch_size": 32,
+        "num_workers": 4,
+        "validation_split": 0.2,
+        "random_seed": 42
+    },
+    "data_augmentation": {
+        "horizontal_flip": true,
+        "vertical_flip": false,
+        "rotation_range": 15,
+        "brightness_range": [0.8, 1.2],
+        "contrast_range": [0.8, 1.2]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "customers": {
+        "Customer A": {
+            "name": "Customer A",
+            "labels": [
+                "2.76880.822 Chocolatey Donut Arabic Label 1",
+                "2.76880.823 Vanilla Donut Label",
+                "2.76880.824 Strawberry Donut Label"
+            ],
+            "label_dir": "labels/customer_a"
+        },
+        "Customer B": {
+            "name": "Customer B",
+            "labels": [
+                "3.45670.123 Coffee Label",
+                "3.45670.124 Tea Label",
+                "3.45670.125 Juice Label"
+            ],
+            "label_dir": "labels/customer_b"
+        }
+    }
+}

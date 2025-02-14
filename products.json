@@ -1,0 +1,128 @@
+[
+    {
+        "article_number": "62865",
+        "name": "Donut Hallon",
+        "customer": "Schulstad",
+        "description": "Vadelmadonitsi / Donut Hallon",
+        "labels": [
+            {
+                "path": "labels/schulstad/62865_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för hallon donut"
+            },
+            {
+                "path": "labels/schulstad/62865_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för hallon donut"
+            }
+        ]
+    },
+    {
+        "article_number": "62866",
+        "name": "Donut Choklad",
+        "customer": "Schulstad",
+        "description": "Suklaadonitsi / Donut Choklad",
+        "labels": [
+            {
+                "path": "labels/schulstad/62866_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för choklad donut"
+            },
+            {
+                "path": "labels/schulstad/62866_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för choklad donut"
+            }
+        ]
+    },
+    {
+        "article_number": "62867",
+        "name": "Donut Jordgubb",
+        "customer": "Schulstad",
+        "description": "Mansikkadonitsi / Donut Jordgubb",
+        "labels": [
+            {
+                "path": "labels/schulstad/62867_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för jordgubb donut"
+            },
+            {
+                "path": "labels/schulstad/62867_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för jordgubb donut"
+            }
+        ]
+    },
+    {
+        "article_number": "71450",
+        "name": "Kanelbulle",
+        "customer": "Fazer",
+        "description": "Korvapuusti / Kanelbulle",
+        "labels": [
+            {
+                "path": "labels/fazer/71450_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för kanelbulle"
+            },
+            {
+                "path": "labels/fazer/71450_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för kanelbulle"
+            }
+        ]
+    },
+    {
+        "article_number": "71451",
+        "name": "Vaniljbulle",
+        "customer": "Fazer",
+        "description": "Vaniljakorva / Vaniljbulle",
+        "labels": [
+            {
+                "path": "labels/fazer/71451_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för vaniljbulle"
+            },
+            {
+                "path": "labels/fazer/71451_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för vaniljbulle"
+            }
+        ]
+    },
+    {
+        "article_number": "82340",
+        "name": "Frallor",
+        "customer": "Pågen",
+        "description": "Färska frallor",
+        "labels": [
+            {
+                "path": "labels/pagen/82340_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för frallor"
+            },
+            {
+                "path": "labels/pagen/82340_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för frallor"
+            }
+        ]
+    },
+    {
+        "article_number": "82341",
+        "name": "Rågbröd",
+        "customer": "Pågen",
+        "description": "Färskt rågbröd",
+        "labels": [
+            {
+                "path": "labels/pagen/82341_kartong.jpg",
+                "type": "kartong",
+                "description": "Kartongetikett för rågbröd"
+            },
+            {
+                "path": "labels/pagen/82341_pall.jpg",
+                "type": "pall",
+                "description": "Palletikett för rågbröd"
+            }
+        ]
+    }
+]

@@ -1,0 +1,132 @@
+/* Modern dark theme för Label Vision System */
+
+QMainWindow {
+    background-color: #2b2b2b;
+}
+
+QWidget {
+    color: #ffffff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Toolbar styling */
+QToolBar {
+    background-color: #333333;
+    border: none;
+    padding: 5px;
+    spacing: 10px;
+}
+
+/* Button styling */
+QPushButton {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #0b5ed7;
+}
+
+QPushButton:pressed {
+    background-color: #0a58ca;
+}
+
+/* Status indicators */
+QPushButton#statusOK {
+    background-color: #198754;
+}
+
+QPushButton#statusError {
+    background-color: #dc3545;
+}
+
+/* Combo box styling */
+QComboBox {
+    background-color: #3b3b3b;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 150px;
+}
+
+QComboBox:hover {
+    border: 1px solid #0d6efd;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox::down-arrow {
+    image: url(resources/down-arrow.png);
+    width: 12px;
+    height: 12px;
+}
+
+/* Labels styling */
+QLabel {
+    color: #ffffff;
+    padding: 5px;
+}
+
+QLabel#title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QLabel#results {
+    font-size: 16px;
+    background-color: #3b3b3b;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Image display area */
+QLabel#imageDisplay {
+    background-color: #1b1b1b;
+    border: 2px solid #3b3b3b;
+    border-radius: 8px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background-color: #2b2b2b;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #555555;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #666666;
+}
+
+/* Status bar */
+QStatusBar {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Group boxes */
+QGroupBox {
+    border: 2px solid #3b3b3b;
+    border-radius: 6px;
+    margin-top: 1em;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    color: #0d6efd;
+    subcontrol-origin: margin;
+    padding: 0 5px;
+}
