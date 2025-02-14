@@ -1,0 +1,55 @@
+{
+    "customers": [
+        {
+            "id": "1",
+            "name": "Lantmännen Unibake SV"
+        },
+        {
+            "id": "2",
+            "name": "Lantmännen Unibake NO"
+        },
+        {
+            "id": "3",
+            "name": "Lantmännen Unibake Polen"
+        },
+        {
+            "id": "4",
+            "name": "Lantmännen Unibake Baltic"
+        }
+    ],
+    "labels": {
+        "1": [
+            {
+                "id": "101",
+                "name": "226580 YD Vanilj-Kanelbulle",
+                "text": "Vanilj-Kanelbulle\nVikt: 100g\nBäst före: 2024-12-31"
+            },
+            {
+                "id": "102",
+                "name": "226581 YD Kanelbulle",
+                "text": "Kanelbulle\nVikt: 90g\nBäst före: 2024-12-31"
+            }
+        ],
+        "2": [
+            {
+                "id": "201",
+                "name": "326580 YD Skillingsbolle",
+                "text": "Skillingsbolle\nVekt: 95g\nBest før: 2024-12-31"
+            }
+        ],
+        "3": [
+            {
+                "id": "301",
+                "name": "426580 YD Bulka Cynamonowa",
+                "text": "Bulka Cynamonowa\nWaga: 95g\nNajlepiej przed: 2024-12-31"
+            }
+        ],
+        "4": [
+            {
+                "id": "401",
+                "name": "526580 YD Cinnamon Roll",
+                "text": "Cinnamon Roll\nWeight: 95g\nBest before: 2024-12-31"
+            }
+        ]
+    }
+}
